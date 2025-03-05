@@ -9,7 +9,7 @@ public class MainFrame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        JLabel label = new JLabel("¡Hola, mundo desde Swing!", SwingConstants.CENTER);
+        JLabel label = new JLabel("¡Hola mundo desde Swing!", SwingConstants.CENTER);
         add(label);
     }
 
